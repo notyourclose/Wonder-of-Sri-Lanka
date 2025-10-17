@@ -44,20 +44,18 @@ export const Gallery: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {galleryImages.map((image, index) => (
             <motion.div
               key={image.title}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              className="group relative rounded-lg overflow-hidden shadow-lg h-56 sm:h-56 md:h-48"
+              className="group relative rounded-lg overflow-hidden shadow-lg h-48"
             >
               <img
                 src={image.src}
                 alt={image.title}
-                loading="lazy"
-                decoding="async"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">

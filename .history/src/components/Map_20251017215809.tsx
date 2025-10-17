@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export const Map: React.FC = () => {
   return (
-    <section className="py-16 md:py-24 px-4 bg-white">
+    <section className="py-24 px-4 bg-white">
       <div className="container mx-auto max-w-2xl">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
@@ -26,8 +26,8 @@ export const Map: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="mt-8 text-center space-y-2"
         >
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900">Tourist Attractions</h2>
-          <p className="text-base md:text-xl text-gray-600">
+          <h2 className="text-4xl font-bold text-gray-900">Tourist Attractions</h2>
+          <p className="text-xl text-gray-600">
             Explore iconic landmarks and hidden gems
           </p>
         </motion.div>

@@ -32,7 +32,7 @@ export const Hero = () => {
         <img src={`${import.meta.env.BASE_URL}cover_page_.png`} alt="Sri Lanka landscapes" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black opacity-40"></div>
       </div>
-      <div className="relative h-full flex flex-col justify-center items-center text-center px-4 pt-24 md:pt-0">
+      <div className="relative h-full flex flex-col justify-center items-center text-center px-4">
         <motion.div ref={ref} initial="hidden" animate={controls} variants={variants} className="max-w-3xl">
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-4 md:mb-6">
             Discover the Wonder of Sri Lanka
