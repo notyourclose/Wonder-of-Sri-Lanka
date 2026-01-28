@@ -1,4 +1,4 @@
-# traveling--Sri-Lanka
+# Wonder-of-Sri-Lanka
 
 Vite + React + TypeScript site about traveling in Sri Lanka.
 
